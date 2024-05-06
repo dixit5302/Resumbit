@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 500px;
+    margin: 60px auto;
+    padding: 20px 0px 30px 80px;
+    border: 1px solid goldenrod;
+    background-color: gray;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+

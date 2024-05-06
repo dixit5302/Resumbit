@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms Tag</title>
+    <link rel="stylesheet" href="index4.css">
+  </head>
+  <body>
+    <div class="main-container">
+        <h1>Enter Your Details</h1>
+    <h5>Step 1: Your details</h5>
+    <form>
+      <label for="username">Name</label>
+      <input
+        type="text"
+        placeholder="First and last name"
+        id="username"
+        autofocus
+      />
+      <br />
+      <label for="usermail">Email</label>
+      <input type="email" placeholder="example@domain.com" id="usermail" />
+      <br />
+
+      <label for="mobilenumber">Phone</label>
+      <input type="number" placeholder="Eg. +44750000000" >
+      <br />
+
+      <h5>Step 2: Delivery address</h5>
+
+      <label>Address</label>
+      <textarea rows="4" cols="20" style="background-color: rgb(215, 225, 225);"></textarea>
+      <br />
+
+      <label for="code">Post code</label>
+      <input type="text" maxlength="6" id="code" >
+      <br />
+
+      <label for="country">Country</label>
+      <input type="text" id="country" >
+      <br />
+
+      <h5>step 3: Card details</h5>
+
+      <input type="radio" id="card" >
+      <label for="card">VISSA</label>
+
+      <input type="radio" id="card" >
+      <label for="card">AmEx</label>
+
+      <input type="radio" id="card" >
+      <label for="card">Mastercard</label>
+
+      <br />
+
+      <label for="cardnumber">Card number</label>
+      <input type="text" maxlength="16" id="cardnumber" style="background-color: rgb(234, 185, 185);">
+      <br />
+
+      <label for="securitycode">Security code</label>
+      <input type="text" maxlength="4" id="securitycode" style="background-color: cornsilk;">
+      <br />
+
+      <label for="nameoncard">Name on card</label>
+      <input type="text" id="nameoncard" placeholder="Exact name on the card" />
+    </form>
+</div>
+  </body>
+</html>

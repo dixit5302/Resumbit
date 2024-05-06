@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 400px;
+    margin: 30px auto;
+    border: 3px dashed red;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    background-color: lightgreen;
+}
+.main-container h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(127, 138, 11);
+}
+.main-container h5{
+    font-size: large;
+    color: rgb(11, 145, 157);
+}
+
+::placeholder{
+    color: rgb(172, 87, 221);
+  }
